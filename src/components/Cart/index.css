@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.cart-image-style {
+  height: 150px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-image-style {
+    height: 350px;
+    width: 300px;
+  }
+}
